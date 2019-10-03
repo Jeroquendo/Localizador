@@ -4,10 +4,12 @@ import { AgmCoreModule } from '@agm/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { VistaComponent } from './vista/vista.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VistaComponent
   ],
   imports: [
     BrowserModule,
